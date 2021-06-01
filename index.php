@@ -17,7 +17,9 @@ if(!empty($_GET['location'])){
 </head>
 <body>
     <form action="">
-        <input type="text">
+        <h3>location input</h3>
+        <input type="text" name="location">
+        <button type="submit">submit</button>
     </form>
 </body>
 </html>
